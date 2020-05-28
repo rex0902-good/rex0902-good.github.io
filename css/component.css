@@ -1,0 +1,376 @@
+/*
+*You can say something about your file if you need it!
+*/
+/*--------------------------*/
+/* $Catalog
+----------------------------*/
+/**
+*Globel
+*Elements
+*Header
+*About
+*Quote
+*Skill
+*Experience
+*Work
+*Contact
+*Footer
+*Parallax graphic
+**/
+/*--------------------------*/
+/*$Globel
+/*--------------------------*/
+body{
+	font-family: arial,微軟正黑體;
+}
+a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+ul{
+	list-style: none;
+	/*字體的點*/
+	padding: 0;
+	margin: 0;
+}
+/*--------------------------*/
+/* $Elements
+----------------------------*/
+/*background*/
+.bg{
+		/*position:fixed;*/
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+}
+/*--------------------------*/
+/* $Header
+----------------------------*/
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	transition: all 0.3s;	
+
+}
+.header--colored{
+    background-color: #e39f48;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+.header--colored .menu-toggle span{
+    background-color: #e881a7;
+}
+.header--colored .navbar__social-bar .icon-btn{
+    color: #e881a7;
+}
+.logo-content{
+height: 100vh;
+width: 100%;
+
+background-size: cover;
+background-position: center;
+background-color:#e39f48 ;
+
+v
+
+}
+.sepia{
+-webkit-filter:sepia(1);
+}
+.box{
+	position: absolute;
+left: 50%;
+top: 50%;
+}
+/*navbar
+-------------------------*/
+.nav-bar{
+	z-index: 101;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.nav-bar_nav{
+	float:right;
+
+}
+ 
+.menu >li{
+	float:left;
+	background-color:rgba(0,0,0,0);
+	transition: all 0.3s;
+}
+.menu >li:hover{
+	float:left;
+	background-color:rgba(0,0,0,0.3); ;
+}
+.menu >li>a{
+	font-size: 20px;
+	display: block;
+	padding: 28px 16px;
+	/*margin-right: 4px;*/
+	color:	#f4f4f4;
+
+}
+
+.navbar--collapse{
+	margin-right: -16px;
+	margin-left: -16px;
+}
+/*--------------------------*/
+/* $Work
+----------------------------*/
+#work {
+	background: #3b937f;
+	
+	padding-bottom: 100px;
+}
+#work h2{
+	font-size: 100px;
+	color: #fefefe;
+}
+#work .upper{
+	position:relative;
+}
+#work .innertext{
+	position:absolute;
+	bottom:20px;
+	left:30px;
+}
+#work .innertext span{
+	background: rgba(255,255,255,0.3);
+    padding: 5px 16px;
+    border-radius: 30px;
+}
+#work h4{
+	font-size: 19px;
+    margin-top: 18px;
+}
+.outer{
+	
+	background-color: #4c4039;
+	border-radius:10px;
+	box-shadow: 0 0 15px  rgba(0,0,0,0.5);
+	margin-bottom:50px;
+	
+	transition: all 0.3s;
+}
+.outer:hover{
+background-color: #e39f48;
+
+	
+}
+.lower{
+	color:#fefefe;
+	font-weight: 800;
+	font-size: 25px;
+	padding: 28px;
+
+}
+
+
+#work .lower{
+	    padding: 22px;
+
+}
+
+#work .lower h3{
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+
+#work i{
+	margin-right:5px;
+}
+#work img{
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	max-width:100%;
+	-webkit-filter: grayscale(100%);
+	transition: all 0.3s;
+}
+#work img:hover{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	max-width:100%;
+	-webkit-filter: grayscale(0%);
+}
+/*popuop*/
+.video{
+ height: 100%;
+
+}
+.vide-bg{
+ background-color: #272727;
+}
+.video .col-md-5 h1,h3{
+	color:#fefefe;
+	padding: 0 25px;
+}
+.popup_background{
+opacity: 0.8 !important;
+}
+.video-sc{
+ object-fit: cover;
+ width: 125vh;
+}
+
+
+.video-container{
+
+position:relative;
+
+padding-bottom:56.25%;
+
+padding-top:30px;
+height:0;
+overflow:hidden;
+
+}
+
+ 
+
+.video-container iframe,
+
+.video-container object,
+
+.video-container embed{
+
+position:absolute;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+}
+/*------------------------*/
+/*card
+------------------------*/
+.card-group{	
+	height: 600px;
+	border: 1px solid #fefefe;
+}
+.card-contact{
+	object-fit: cover;
+	height: inherit;
+	width: 80%;
+	height: 80%;
+    margin-right: auto;
+    margin-left: auto;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	position: absolute;
+	left: 10%;
+	bottom: 0;
+
+}
+
+/*--------------------------*/
+/*footer
+----------------------------*/
+.footer-bg{
+
+background-color: #4c4039;
+width: 100%;
+padding: 20px 0px;
+
+
+}
+.color-green span{
+	padding: 20px 0px;
+	line-height: 30px!important;
+	font-weight: 600;
+}
+.color-green{
+
+	color: #3b937f;
+}
+/*.info__social-bar{
+	float: right;
+}*/
+.info__social-bar .icon-btn{
+	color: #3b937f;
+}
+/*icon btn*/
+
+.icon-btn{
+	display: inline-block;
+	/*width: 320px;*/
+	height:32px;
+	line-height: 24px;
+	font-size: 32px;
+}
+.icon-btn .icon{
+	display:inline-block;
+	text-align: right;
+	transition: all 0.3s;
+}
+.icon-btn .icon:hover{
+	transform: translateY(-20%);
+}
+.header--colored .navbar__social-bar .icon-btn{
+    color: #e881a7;
+}
+.info__social-bar a{
+	padding: 0 5px;
+} 
+
+
+
+/*banner*/
+.hero__bg{
+
+}
+.hero{
+	height: 100vh;
+	padding-bottom: 20vh;
+	padding-top: 20vh;
+
+}
+@media (max-width: 480px) {
+	.hero{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}
+.hero__heading{
+	font-size: 120px;
+	font-weight: 900;
+	color: #fefefe;
+}
+@media(max-width: 768px){
+	.hero__heading{
+		font-size: 48px;
+	}
+}
+.hero__bg{
+/*	border: 1px solid #fff;*/
+	position: absolute;
+	top: 150px;
+	width: 100%;
+	height: 80%;
+	
+	/*background-image: url("../image/計畫通logo(白色).svg");*/
+	background-size:400px;
+	background-repeat: no-repeat;
+	background-position:top right;
+	left: 65%;
+	transform: translate(-50%);
+	max-width: 1140px;
+	/*border:1px solid #000000;*/
+
+}
+.wrapper{
+background-color: #e39f48; 
+height: 100%;
+width: 100%;
+}
