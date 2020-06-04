@@ -103,10 +103,12 @@ top: 50%;
 	float:left;
 	background-color:rgba(0,0,0,0);
 	transition: all 0.3s;
+  z-index: 51;
 }
 .menu >li:hover{
 	float:left;
-	background-color:rgba(0,0,0,0.3); ;
+	background-color:rgba(0,0,0,0.3);
+  z-index: 51;
 }
 .menu >li>a{
 	font-size: 20px;
