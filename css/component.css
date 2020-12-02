@@ -16,6 +16,7 @@
 *Contact
 *Footer
 *Parallax graphic
+*popup
 **/
 /*--------------------------*/
 /*$Globel
@@ -32,6 +33,7 @@ ul{
 	/*字體的點*/
 	padding: 0;
 	margin: 0;
+   z-index: 2;
 }
 /*--------------------------*/
 /* $Elements
@@ -96,6 +98,7 @@ top: 50%;
 }
 .nav-bar_nav{
 	float:right;
+  z-index: 1;
 
 }
  
@@ -103,18 +106,16 @@ top: 50%;
 	float:left;
 	background-color:rgba(0,0,0,0);
 	transition: all 0.3s;
-  z-index: 51;
 }
 .menu >li:hover{
 	float:left;
 	background-color:rgba(0,0,0,0.3);
-  z-index: 51;
 }
+
 .menu >li>a{
 	font-size: 20px;
 	display: block;
 	padding: 28px 16px;
-	/*margin-right: 4px;*/
 	color:	#f4f4f4;
 
 }
@@ -2969,4 +2970,14 @@ width: 100%;
 	transform: translate(-50%);
 	max-width: 1140px;
 }
+}
+/*--------------------------*/
+/*popup
+----------------------------*/
+.typeset >a{
+  color: #FFFFFF;
+}
+
+.typeset >a:hover{
+  color: #FF8C00;
 }
